@@ -8,7 +8,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: 'rgba(157,157,157,0.0)',
         height: 60,
-        paddingTop: 15
+        paddingTop: 15,
+        elevation: 2,
+        position: 'relative'
     }
 });
 const Header = () =>
