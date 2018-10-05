@@ -14,7 +14,7 @@ import {
   View
 } from 'react-native';
 import Header from './src/components/Header';
-
+import InfoList from './src/components/InfoList';
 
 // const instructions = Platform.select({
 //   ios: 'Press Cmd+R to reload,\n' +
@@ -31,6 +31,7 @@ export default class App extends Component<Props> {
       // flexbox
       <View style={styles.container}>
         <Header />
+        <InfoList />
       </View>
     );
   }
@@ -41,7 +42,7 @@ const styles = StyleSheet.create({
     // flex: 1,
     // justifyContent: 'flex-start',
     // alignItems: 'center',
-    backgroundColor: 'rgb(247, 243, 239)',
+
   },
   welcome: {
     fontSize: 20,

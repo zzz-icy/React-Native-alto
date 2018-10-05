@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     viewStyle: {
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'rgb(247, 243, 239)',
+        backgroundColor: 'rgba(157,157,157,0.0)',
         height: 60,
         paddingTop: 15
     }
@@ -15,7 +15,6 @@ const Header = () =>
     (
         <View style={styles.viewStyle}>
             <Image source={logo} />
-
         </View>
     );
 
